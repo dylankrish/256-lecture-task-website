@@ -9,6 +9,6 @@
 ✅ Make a small change or addition to your project
 ✅ Updating the README
 ✅ Creating a simple HTML/CSS page
-- Adding a basic function
+✅ Adding a basic function
 ✅ Push your local branch to the GitHub repository and open a pull request (PR) to merge your branch into the main branch of the repository.
 ✅ Once feedback is incorporated and the code is reviewed, you should merge your pull request into the main branch.
