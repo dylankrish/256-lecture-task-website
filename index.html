@@ -7,22 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1 style="display: flex; justify-content: center; align-items: center; height: 100vh;">256 Lecture Task</h1>
+    <div style="text-align: center;">
+        <h1>256 Lecture Task</h1>
+        <label for="inputBox">Enter some text:</label><br>
+        <input type="text" id="inputBox">
     </div>
 </body>
 <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-    div {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+    }
+
+    h1 {
+        margin-bottom: 20px; /* Add some spacing between the heading and the form */
     }
 </style>
 </html>
