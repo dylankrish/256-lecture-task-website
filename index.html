@@ -8,9 +8,9 @@
 </head>
 <body>
     <div style="text-align: center;">
-        <h1>256 Lecture Task</h1>
+        <h1 id="heading">256 Lecture Task</h1>
         <label for="inputBox">Enter some text:</label><br>
-        <input type="text" id="inputBox">
+        <input type="text" id="input">
     </div>
 </body>
 <style>
@@ -28,4 +28,19 @@
         margin-bottom: 20px; /* Add some spacing between the heading and the form */
     }
 </style>
+<script>
+        function textUpdate() {
+            let input = document.getElementById('input').value;
+            let output = document.getElementById('heading');
+            
+            if (input.trim() !== "") {
+                output.innerText = input;
+            } else {
+                output.innerText = "256 Lecture Task";
+            }
+        }
+
+        // run every half second
+        setInterval(textUpdate, 500);
+</script>
 </html>
